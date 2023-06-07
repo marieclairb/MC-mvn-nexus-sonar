@@ -59,6 +59,8 @@
 	<repository>
 	  <id>nexusdeploymentrepo</id>
       <url>http://35.165.1.26:8081/repository/maven-releases/</url> <!-- Update the IP/Address to Your Nexus VM IP -->
-    </repository>												
+    </repository>													 <!-- Also make sure you have the above two or one repositories created -->
+  
+  </distributionManagement>
 
 </project>
